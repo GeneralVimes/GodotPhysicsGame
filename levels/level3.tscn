@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3 uid="uid://eghonlmqxlsh"]
+
+[ext_resource type="PackedScene" path="res://Block.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://Shelf.tscn" id="2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Block13" parent="." instance=ExtResource("1")]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(484, 264)
+type_id = 1
+
+[node name="Block20" parent="." instance=ExtResource("1")]
+position = Vector2(521, 328)
+
+[node name="Block22" parent="." instance=ExtResource("1")]
+position = Vector2(518, 132)
+
+[node name="Block21" parent="." instance=ExtResource("1")]
+modulate = Color(0, 1, 0, 1)
+position = Vector2(518, 199)
+type_id = 2
+
+[node name="Shelf" parent="." instance=ExtResource("2")]
+position = Vector2(282, 504)
+scale = Vector2(0.439999, 1)
+
+[node name="Shelf2" parent="." instance=ExtResource("2")]
+position = Vector2(544, 368)
+scale = Vector2(0.320002, 1)
+
+[node name="Shelf3" parent="." instance=ExtResource("2")]
+position = Vector2(843, 286)
+scale = Vector2(0.200002, 1)

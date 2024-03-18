@@ -1,0 +1,55 @@
+[gd_scene load_steps=3 format=3 uid="uid://bujd0weefod8h"]
+
+[ext_resource type="PackedScene" uid="uid://b1tf78krin8me" path="res://Block.tscn" id="1_foe06"]
+[ext_resource type="PackedScene" path="res://Shelf.tscn" id="2_3ra33"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Block" parent="." instance=ExtResource("1_foe06")]
+position = Vector2(517, 328)
+gravity_scale = 0.0
+constant_force = Vector2(981, 0)
+
+[node name="Block3" parent="." instance=ExtResource("1_foe06")]
+position = Vector2(660, 328)
+gravity_scale = 0.0
+constant_force = Vector2(981, 0)
+
+[node name="Block4" parent="." instance=ExtResource("1_foe06")]
+position = Vector2(819, 326)
+gravity_scale = 0.0
+constant_force = Vector2(981, 0)
+
+[node name="Block7" parent="." instance=ExtResource("1_foe06")]
+position = Vector2(199, 60)
+gravity_scale = 0.0
+constant_force = Vector2(981, 0)
+
+[node name="Block8" parent="." instance=ExtResource("1_foe06")]
+position = Vector2(303, 60)
+gravity_scale = 0.0
+constant_force = Vector2(981, 0)
+
+[node name="Block5" parent="." instance=ExtResource("1_foe06")]
+position = Vector2(727, 327)
+gravity_scale = 0.0
+constant_force = Vector2(981, 0)
+shape_id = 1
+
+[node name="Block6" parent="." instance=ExtResource("1_foe06")]
+position = Vector2(682, 264)
+gravity_scale = 0.0
+constant_force = Vector2(981, 0)
+shape_id = 1
+
+[node name="Block2" parent="." instance=ExtResource("1_foe06")]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(518, 195)
+gravity_scale = 0.0
+constant_force = Vector2(981, 0)
+type_id = 1
+shape_id = 1
+
+[node name="Shelf" parent="." instance=ExtResource("2_3ra33")]
+position = Vector2(934, 175)
+rotation = -1.68337

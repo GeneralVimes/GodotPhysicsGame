@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpbbxt3m0ucx0"]
+
+[ext_resource type="PackedScene" uid="uid://b1tf78krin8me" path="res://Block.tscn" id="1"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Block3" parent="." instance=ExtResource("1")]
+position = Vector2(849, 67)
+gravity_scale = 0.0
+shape_id = 1
+
+[node name="Block7" parent="." instance=ExtResource("1")]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(511, 469)
+type_id = 1
+
+[node name="Block8" parent="." instance=ExtResource("1")]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(512, 404)
+type_id = 1
+
+[node name="Block9" parent="." instance=ExtResource("1")]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(513, 339)
+type_id = 1
+
+[node name="Block10" parent="." instance=ExtResource("1")]
+position = Vector2(511, 534)
+
+[node name="Block24" parent="." instance=ExtResource("1")]
+position = Vector2(711, 290)
+rotation = 1.92885
+scale = Vector2(13.9705, 0.34439)

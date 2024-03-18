@@ -1,0 +1,45 @@
+[gd_scene load_steps=3 format=3 uid="uid://cr6fmcs6sgf8u"]
+
+[ext_resource type="PackedScene" path="res://Block.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://Shelf.tscn" id="2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Block3" parent="." instance=ExtResource("1")]
+position = Vector2(426, 370)
+
+[node name="Block7" parent="." instance=ExtResource("1")]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(422, 238)
+type_id = 1
+
+[node name="Block10" parent="." instance=ExtResource("1")]
+position = Vector2(404, 434)
+
+[node name="Block17" parent="." instance=ExtResource("1")]
+position = Vector2(550, 373)
+
+[node name="Block4" parent="." instance=ExtResource("1")]
+position = Vector2(453, 305)
+
+[node name="Block5" parent="." instance=ExtResource("1")]
+position = Vector2(456, 173)
+
+[node name="Block18" parent="." instance=ExtResource("1")]
+position = Vector2(521, 303)
+
+[node name="Block21" parent="." instance=ExtResource("1")]
+modulate = Color(0, 1, 0, 1)
+position = Vector2(493, 236)
+type_id = 2
+
+[node name="Block24" parent="." instance=ExtResource("1")]
+position = Vector2(575, 439)
+
+[node name="Shelf" parent="." instance=ExtResource("2")]
+position = Vector2(354, 483)
+scale = Vector2(0.360001, 1)
+
+[node name="Shelf2" parent="." instance=ExtResource("2")]
+position = Vector2(643, 483)
+scale = Vector2(0.360001, 1)
